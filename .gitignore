@@ -3,6 +3,25 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+# Pasta bin
+/bin/
+
+# Pasta obj
+/obj/
+
+# Arquivos de configuração do Visual Studio
+.vscode/
+.idea/
+
+# Arquivos temporários de build
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos do pacote de dependências
+*.nupkg
+
 # User-specific files
 *.rsuser
 *.suo
