@@ -1,0 +1,33 @@
+[
+  {
+    "ContainingType": "CredentialsController",
+    "Method": "ListarApisEAmbientes",
+    "RelativePath": "api/Credentials/listar-apis-e-ambientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CredentialsController",
+    "Method": "VerificarAPI",
+    "RelativePath": "api/Credentials/verificar/{api}/{ambiente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ambiente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

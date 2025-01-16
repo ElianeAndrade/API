@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "uJEq3D99KhBInE9nCTmT15B282kB7wSjJE8maUYxQ1U=",
+  "Source": "WebCredentialsApi",
+  "BasePath": "_content/WebCredentialsApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
