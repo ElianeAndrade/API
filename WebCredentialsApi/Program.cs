@@ -77,9 +77,8 @@ var app = builder.Build();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
-// Adicione o Health Check aqui
-app.MapGet("/healthz", () => Results.Ok("Healthy!"));
-// Redireciona a URL raiz para o Swagger
+
+// Redireciona a URL raiz para o Swagger (pra api abrir em prod)
 app.MapGet("/", async context =>
 {
     context.Response.Redirect("/swagger");
