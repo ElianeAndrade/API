@@ -79,5 +79,8 @@ app.UseAuthorization();
 app.MapControllers();
 // Adicione o Health Check aqui
 app.MapGet("/healthz", () => Results.Ok("Healthy!"));
+// Adicione uma rota para a raiz
+app.MapGet("/", () => Results.Ok("API está funcionando!"));
+
 
 app.Run();
