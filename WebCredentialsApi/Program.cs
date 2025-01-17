@@ -68,11 +68,11 @@ builder.Services.AddEndpointsApiExplorer();
 var app = builder.Build();
 
 // Configure a pipeline HTTP
-if (app.Environment.IsDevelopment())
-{
+//if (app.Environment.IsDevelopment())
+//{
     app.UseSwagger();
     app.UseSwaggerUI();
-}
+//}
 
 app.UseHttpsRedirection();
 app.UseAuthorization();
