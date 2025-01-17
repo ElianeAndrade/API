@@ -77,5 +77,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
+// Adicione o Health Check aqui
+app.MapGet("/healthz", () => Results.Ok("Healthy!"));
 
 app.Run();
